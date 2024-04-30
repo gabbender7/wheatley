@@ -13,10 +13,10 @@ GameObject:
   - component: {fileID: -9091746302950015307}
   - component: {fileID: 6489495806050705589}
   - component: {fileID: 3767580962680404327}
-  - component: {fileID: 7620739710113980752}
+  - component: {fileID: -7432175655556521387}
   m_Layer: 0
   m_Name: New Prefab
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
---- !u!114 &7620739710113980752
+--- !u!114 &-7432175655556521387
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
