@@ -32,7 +32,7 @@ public class Joystick : MonoBehaviour {
 	}
 	private void FixedUpdate(){
         if(touchStart){
-            Vector2 offset = pointB - pointA;
+            Vector2 offset = pointA - pointB;
             Vector2 direction = Vector2.ClampMagnitude(offset, 1.0f);
             moveCharacter(direction * -1);
 
